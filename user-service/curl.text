@@ -1,0 +1,23 @@
+
+
+
+
+
+
+# Get all users
+curl http://localhost:8080/digg/user
+
+
+
+## Create user
+ curl -X POST -H "Content-Type: application/json"  -d '{"name":"Pelle Pirat","address":"Rövargatan 9", "telephone":"08-12312313"}' http://localhost:8080/digg/user
+
+
+## Remove user
+
+ curl -X DELETE -H http://localhost:8080/digg/user/1
+
+
+## Update user
+
+
